@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="757394f0-43a5-4426-a34a-8351cd2e3344" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testing/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/tester.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1U56MYTw6XQHAP2wRAnNvbcVn9t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gitlet.Main" />
+      <module name="proj3" />
+      <option name="PROGRAM_PARAMETERS" value="merge B2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.initTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gitlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gitlet" />
+      <option name="MAIN_CLASS_NAME" value="gitlet.UnitTest" />
+      <option name="METHOD_NAME" value="initTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.UnitTest.initTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UnitTest.initTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="757394f0-43a5-4426-a34a-8351cd2e3344" name="Default Changelist" comment="" />
+      <created>1574634061222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574634061222</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repo.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repo.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repo.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gitlet/Repo.java</url>
+          <line>573</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(Repo) in.readObject()" language="JAVA" />
+        <watch expression="_currcommit.blobs()!=null" language="JAVA" />
+        <watch expression="STAGE_FOLDER" language="JAVA" />
+        <watch expression="filename" language="JAVA" />
+        <watch expression="File parentfile = new File(file.getParentFile())" language="JAVA" />
+        <watch expression="(new File(file.getParentFile(), &quot;.gitlet&quot;))" language="JAVA" />
+        <watch expression="(new File(file.getParentFile(), &quot;.gitlet&quot;)).isDirectory()" language="JAVA" />
+        <watch expression="file" language="JAVA" />
+        <watch expression="new File(file.getParentFile(),&quot;.gitlet&quot;)" language="JAVA" />
+        <watch expression="Utils.plainFilenamesIn(STAGE_FOLDER).isEmpty()" language="JAVA" />
+        <watch expression="_remove.isEmpty()" language="JAVA" />
+        <watch expression="commit.parentid()" language="JAVA" />
+        <watch expression="splitcommit.blobnames()" language="JAVA" />
+        <watch expression="Utils.plainFilenamesIn(Main.CURR_FOLDER)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

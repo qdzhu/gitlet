@@ -1,0 +1,33 @@
+Gitlet Design Document
+----------------------
+
+
+Classes and Data Structures
+---------------------------
+
+**** Main ****
+
+Handle the input argument, output input related output messages, execute the right gitlet command.
+
+**** Blob ****
+
+Create, define characteristics and behaviors of a blob.
+
+**** Commit ****
+
+Create, define characteristics and behaviors of a commit.
+
+**** Repo ****
+
+Represents all possible commands handled by gitlet.
+
+** Fields **
+
+1. Node root: a tree node representing the root of the commit tree.
+
+Algorithms
+----------
+
+
+Persistence
+-----------
